@@ -1,0 +1,54 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#Products__cardContent {
+  padding-bottom: 0;
+}
+
+.css-u5o34-MuiSvgIcon-root-MuiPaginationItem-icon {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 767px) {
+  #Nav__pc {
+    display: none !important;
+  }
+
+  #PlaceOrder__orderDetail-container,
+  #Order__orderDetail-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #PlaceOrder__orderDetail-text,
+  #Order__orderDetail-text {
+    width: 88%;
+  }
+}
+
+@media (max-width: 400px) {
+  #Newsletter__input {
+    font-size: 1rem;
+  }
+
+  #Home__font {
+    font-size: 1.2rem;
+  }
+
+  #Home__cardMedia {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #Profile__img {
+    width: 5rem;
+  }
+}
+
+@media (min-width: 767px) {
+  .Nav__mobile {
+    display: none !important;
+  }
+}
