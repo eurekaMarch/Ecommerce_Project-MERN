@@ -77,6 +77,7 @@ function Nav(value) {
               }}
               onChange={(e) => setSearch(e.target.value)}
               type="text"
+              value={search}
             />
 
             <Button
