@@ -66,6 +66,7 @@ function Nav(value) {
           </Box>
 
           <Box
+            component="form"
             onSubmit={handleSearchSubmit}
             sx={{ display: { xs: "none", md: "block" } }}
           >
@@ -93,7 +94,11 @@ function Nav(value) {
             </Button>
           </Box>
 
-          <Box onSubmit={handleSearchSubmit} sx={{ display: { md: "none" } }}>
+          <Box
+            component="form"
+            onSubmit={handleSearchSubmit}
+            sx={{ display: { md: "none" } }}
+          >
             <TextField
               placeholder="Search"
               size="small"
